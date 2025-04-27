@@ -1,6 +1,5 @@
 
 
-// Select the contact form and contact list
 const contactForm = document.getElementById("contactForm");
 const contactList = document.getElementById("contactList");
 
