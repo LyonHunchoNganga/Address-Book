@@ -5,7 +5,7 @@ const contactList = document.getElementById("contactList");
 contactForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  // Get input values
+  
   const name = document.getElementById("name").value.trim();
   const phone = document.getElementById("phone").value.trim();
   const email = document.getElementById("email").value.trim();
