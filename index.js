@@ -30,8 +30,6 @@ function removeContact(button) {
 
 const taskForm = document.getElementById("taskForm");
 const taskList = document.getElementById("taskList");
-
-// Handle task form submission
 taskForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
