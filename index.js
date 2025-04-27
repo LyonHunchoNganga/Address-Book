@@ -51,7 +51,6 @@ taskForm.addEventListener("submit", function(event) {
   }
 });
 
-// Mark task as done
 function markDone(button) {
   const taskItem = button.parentElement.querySelector('span');
   taskItem.style.textDecoration = "line-through";
