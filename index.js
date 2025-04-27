@@ -12,15 +12,13 @@ contactForm.addEventListener("submit", function(event) {
 
   
   if (name && phone && email) {
-    // Create a new list item
+
     const li = document.createElement("li");
     li.innerHTML = `
       <strong>${name}</strong> | 📞 ${phone} | ✉️ ${email}
       <button onclick="removeContact(this)" class="remove-btn">❌</button>
     `;
     contactList.appendChild(li);
-
-    // Clear the form
     contactForm.reset();
   } else {
     alert("Please fill in all the contact fields!");
