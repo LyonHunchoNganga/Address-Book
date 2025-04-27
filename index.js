@@ -10,7 +10,7 @@ contactForm.addEventListener("submit", function(event) {
   const phone = document.getElementById("phone").value.trim();
   const email = document.getElementById("email").value.trim();
 
-  // Validate input
+  
   if (name && phone && email) {
     // Create a new list item
     const li = document.createElement("li");
