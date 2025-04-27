@@ -24,8 +24,6 @@ contactForm.addEventListener("submit", function(event) {
     alert("Please fill in all the contact fields!");
   }
 });
-
-// Remove a contact
 function removeContact(button) {
   button.parentElement.remove();
 }
