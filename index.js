@@ -33,7 +33,7 @@ const taskList = document.getElementById("taskList");
 taskForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  // Get task input
+  
   const taskInput = document.getElementById("task").value.trim();
 
   // Validate input
