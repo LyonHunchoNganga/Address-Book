@@ -44,7 +44,7 @@ taskForm.addEventListener("submit", function(event) {
     `;
     taskList.appendChild(li);
 
-    // Clear the form
+
     taskForm.reset();
   } else {
     alert("Please enter a task!");
