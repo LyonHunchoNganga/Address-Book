@@ -2,8 +2,6 @@
 
 const contactForm = document.getElementById("contactForm");
 const contactList = document.getElementById("contactList");
-
-// Handle contact form submission
 contactForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
