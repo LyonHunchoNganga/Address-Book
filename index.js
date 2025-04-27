@@ -28,8 +28,6 @@ function removeContact(button) {
   button.parentElement.remove();
 }
 
-// --- To-Do List Functionality ---
-
 // Select the task form and task list
 const taskForm = document.getElementById("taskForm");
 const taskList = document.getElementById("taskList");
