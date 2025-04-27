@@ -35,8 +35,6 @@ taskForm.addEventListener("submit", function(event) {
 
   
   const taskInput = document.getElementById("task").value.trim();
-
-  // Validate input
   if (taskInput) {
     // Create a new task item
     const li = document.createElement("li");
