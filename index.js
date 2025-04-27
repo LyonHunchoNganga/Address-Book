@@ -57,7 +57,6 @@ function markDone(button) {
   taskItem.style.color = "green";
 }
 
-// Remove a task
 function removeTask(button) {
   button.parentElement.remove();
 }
